@@ -1,13 +1,13 @@
 {
-    "name": "vitkuz573/free-id-json",
-    "description": "JSON parser for free-id-core package",
+    "name": "free-id/json",
+    "description": "JSON parser for free-id/core package",
     "keywords": [
         "free id",
         "vitkuz573",
         "json",
         "parser"
     ],
-    "homepage": "https://github.com/vitkuz573/free-id-json",
+    "homepage": "https://github.com/free-id/json",
     "license": "MIT",
     "authors": [
         {
