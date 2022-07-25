@@ -9,7 +9,7 @@ use Vitkuz573\FreeIdCore\Concerns\File;
 use Vitkuz573\FreeIdCore\Contracts\File as FileContract;
 use Vitkuz573\FreeIdCore\BaseParser;
 
-class Json extends BaseParser implements FileContract
+class Parser extends BaseParser implements FileContract
 {
     use File;
 
