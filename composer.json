@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=8.1",
-        "vitkuz573/free-id-core": "dev-main",
+        "vitkuz573/free-id-core": "^4.0",
         "ext-json": "*"
     },
     "require-dev": {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vitkuz573\\FreeIdJson\\": "src"
+            "Vitkuz573\\FreeId\\Json\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vitkuz573\\FreeIdJson\\Tests\\": "tests"
+            "Vitkuz573\\FreeId\\Json\\Tests\\": "tests"
         }
     },
     "scripts": {
