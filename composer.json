@@ -1,0 +1,55 @@
+{
+    "name": "vitkuz573/free-id-json",
+    "description": "JSON parser for free-id-core package",
+    "keywords": [
+        "free id",
+        "vitkuz573",
+        "json",
+        "parser"
+    ],
+    "homepage": "https://github.com/vitkuz573/free-id-json",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Kuzyaev",
+            "email": "vitkuz573@gmail.com",
+            "homepage": "https://vitkuz.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "vitkuz573/free-id-core": "dev-main",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "phpstan/phpstan": "1.7.x-dev",
+        "phpunit/phpunit": "~9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vitkuz573\\FreeIdJson\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vitkuz573\\FreeIdJson\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html tests/coverage",
+        "csfix": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "csfix-validate": "vendor/bin/php-cs-fixer fix --dry-run --diff --allow-risky=yes",
+        "phpstan": "vendor/bin/phpstan analyse src tests examples",
+        "code-quality": [
+            "@csfix-validate",
+            "@phpstan"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
