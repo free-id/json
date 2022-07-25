@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Vitkuz573\FreeId\Json;
+namespace FreeId\Json;
 
 use Symfony\Component\Filesystem\Exception\FileNotFoundException;
-use Vitkuz573\FreeId\Core\Concerns\File;
-use Vitkuz573\FreeId\Core\Contracts\File as FileContract;
-use Vitkuz573\FreeId\Core\Parser as BaseParser;
+use FreeId\Core\Concerns\File;
+use FreeId\Core\Contracts\File as FileContract;
+use FreeId\Core\Parser as BaseParser;
 
 class Parser extends BaseParser implements FileContract
 {

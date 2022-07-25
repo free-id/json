@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vitkuz573\\FreeId\\Json\\": "src"
+            "FreeId\\Json\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vitkuz573\\FreeId\\Json\\Tests\\": "tests"
+            "FreeId\\Json\\Tests\\": "tests"
         }
     },
     "scripts": {
