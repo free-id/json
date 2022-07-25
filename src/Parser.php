@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vitkuz573\FreeId\Parsers\File;
+namespace Vitkuz573\FreeIdJson;
 
 use Symfony\Component\Filesystem\Exception\FileNotFoundException;
 use Vitkuz573\FreeIdCore\Concerns\File;
