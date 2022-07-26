@@ -4,8 +4,6 @@
 [![Tests](https://github.com/free-id/json/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/free-id/json/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/free-id/json.svg?style=flat-square)](https://packagist.org/packages/free-id/json)
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
-
 ## Installation
 
 You can install the package via composer:
