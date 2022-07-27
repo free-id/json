@@ -15,7 +15,9 @@ composer require free-id/json
 ## Usage
 
 ```php
-$parser = new FreeId\Json\Parser();
+use FreeId\Json\Parser;
+
+$parser = new Parser();
 echo $parser->find();
 ```
 
